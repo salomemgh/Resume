@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #15161A;
+    background-image: url(Effects.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url(Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter-semibold;
+    src: url(Inter-SemiBold.ttf);
+}
+.h4_tomford{
+    font-weight: 600;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: inter-semibold;
+}
+.p_Ashort{
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: inter-regular;
+}
+.span_usa{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: inter-regular;
+}
+.a_link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: inter-regular;
+}
+.p_write{
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: inter-regular;
+}
+.span_work{
+    font-weight: 600;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: inter-semibold;
+}
+.hr1{
+    width: 83%;
+    border-bottom: 1px solid #585D6C;
+}
+.P_company, .P_company2, .P_skill3{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: inter-semibold;
+}
+.p_role, .p_2022{
+    font-weight: 400;
+    font-size: 24px;
+    color: #93ACF8;
+    font-family: inter-regular;
+}
+.p_2022{
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+li{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: inter-regular;
+}
+
+
+.cont2{
+    padding-left: 240px;
+}
+.cont3{
+    padding-left: 240px;
+}
+.P_company2{
+    font-size: 48px !important;
+}
+.hr2{
+    border-bottom: 1px solid #585D6C;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #3D6BF4;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.P_write2{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inter-regular;
+}
+.lang{
+    font-weight: 600;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: inter-semibold;
+}
+.p_role2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #93ACF8;
+    font-family: inter-regular;
+}
+.a2{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #93acf8;
+}
+
+
+
